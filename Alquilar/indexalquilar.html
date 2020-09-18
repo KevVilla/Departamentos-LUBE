@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link para agregar una imagen a nuestro icono de página-->
+    <link rel="shortcut icon" href="../images/logo/icono2.png" type="image/x-icon">
+    <!--Ingresamos el estilo de texto proveniente de google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <!--Agregamos el link para enlazar nuestra hoja de estilos-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Alquilar</title>
+</head>
+<body>
+    <!--Creamos las secciones para cada modulo de nuestra página web-->
+    <!--Para la cabezera de nuestro logo y barra de navegación el header-->
+    <header class="header">
+        <div class="header-container">
+            <figure class="logo">
+                <img src="../images/logo/logo2.png" alt="Logo de Departamentos LUBEK" height="90">
+            </figure>
+            <!--Creamos la sección para nuestra barra de navegación-->
+            <!--Dato extra:para que se direccion a otra página diferente de la nuestra usaremos el atributo target-->
+            <nav class="menu">
+                <ul>
+                    <li><a class="link" href="../Index.html">INICIO</a></li>
+                    <li><a class="link" href="../sedes/index.html">SEDES</a></li>
+                    <li><a class="link" href="../Alquilar/index.html" target="_blank">ALQUILAR</a></li>
+                    <li><a class="link" href="../Sesion/index.html">SESIÓN</a></li>
+                    <li><a class="link" href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--En esta sección estará un eslogan de nuestra empresa y una foto de referencia-->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-description">
+                <h1>
+                    Departamentos LUBEK, una <strong>manera</strong><br/>
+                    de vivir en <strong>paz</strong> con solo pulsar un clic 
+                    disfruta de la <strong>comodidad</strong> <br/>
+                    como si fuera tu propia <strong>casa</strong>
+                </h1>
+                <p>
+                    <strong><small>Fecha:30 de Julio del 2020</small></strong>
+                </p>
+            </div> 
+            <figure class="hero-image">
+                <img src="../images/inicio.png" alt="">
+            </figure>
+            
+        </div>
+        
+    </section>
+    <!--Esta seccion para la descripción de nuestra página de venta de departamentos-->
+    <section class="container">
+        <div class="container-total">
+            <div class="container-details">
+                <h2 class="container-title">NOSOTROS</h2>
+                <p>
+                    Adquiere los departamentos más accesibles, con una muy buena ubicación, focalizado para 
+                    todo tipo de clientes, desde mini departamentos, hasta departamentos completos.<br/>
+                    Lo que nos diferencia del resto es que generamos nuestras boletas de consumo según su
+                    consumo habitual, y le generamos los reportes con un usuario personalizado en la página.
+                </p>
+            </div>
+            <figure class="container-imageFigure">
+                <img class="container-image" src="../images/celular.png" alt="Celular">
+            </figure>
+        </div>
+    </section>
+    <!--En esta sección ira la descripcion de nuestras sedes y su ubicación con mayor información-->
+    <section id="sedes" class="country-list">
+        <h2>SEDES</h2>
+        <div class="country-city">
+            <article class="city">
+                <div class="city-details">
+                    <h3 class="city-title">VITARTE</h3>
+                    <p class="city-description">
+                        La sede Vitarte ubicada en la dirección  <strong>MZ. B LT 23 CALLE LOS REYES REFERENCIA 
+                        A LA DINOES</strong> , en esta sede hay 3 apartamentos, un mini-departamento y 2 departamentos
+                        <br/> Ubicadas cerca al centro militar DINOES, teniendo seguridad asegurada.
+                    </p>
+                </div>
+                <div class="city-info">
+                    <figure class="city-imageContainer">
+                        <img class="city-image" src="../images/sedes/vitarte.jpg" alt=""  >
+                    </figure>
+                    <a class="city-button" href="#ALQUILAR">Más información</a>
+                </div>
+            </article>
+            <article class="city">
+                <div class="city-details">
+                    <h3 class="city-title">GLORIA</h3>
+                    <p class="city-description"> 
+                        La sede Gloria ubicada en la dirección <strong>MZ B LT 23 CALLE B GLORIA BAJA</strong> 
+                        en esta sede hay 6 minidepartamentos. Esta ubicada en una zona estratégica, muy calmada,
+                        disfrutaras de la mejor estadía.
+                    </p>
+                </div>
+                <div class="city-info"> 
+                    <figure class="city-imageContainer">
+                        <img class="city-image" src="../images/sedes/gloria.jpg" alt=""  >
+                    </figure>
+                    <a class="city-button" href="#ALQUILAR">Más información</a>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!--Creamos la sección para que puedan contactarnos y enviarnos un gmail-->
+    <section id="contacto" class="contact">
+        <div class="contact-container">
+            <!--Creamos un formulario para que nos envien su correo-->
+            <form action="" class="form-email">
+                <h3>¿Quieres enviar un correo?</h3>
+                <input type="text" placeholder="Ingresa tu correo:" name="" id="" class="form-text">
+                <input type="submit" value="Enviar" class="form-button">
+            </form>
+            <!--Creamos una division para nuestras redes sociales-->
+            <div class="social">
+                <a href="https://twitter.com" class="social-link twitter"></a>
+                <a href="https://facebook.com" class="social-link facebook"></a>
+                <a href="https://github.com" class="social-link github"></a>
+                <a href="https://instagram.com" class="social-link instagram"></a>
+            </div>
+        </div>
+    </section>
+    <!--Creamos la sección para nuestro footer donde ira quien desarrollo la página y nuestro logo-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../images/logo/logo2.png" alt="Logo depa LUBEK" >
+            </div>
+            <div>
+                <p>Design with VSCD <strong>@MisterSH</strong></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
